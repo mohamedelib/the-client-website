@@ -44,8 +44,7 @@ P {
   padding-top: 30px;
 }
 
-.banner{
-  display:grid;
+.banner {
   padding:20px;
   background-image: url("fotos/banner.jpg");
   height: 200px;
