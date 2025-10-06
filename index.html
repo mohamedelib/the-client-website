@@ -3,122 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>De Associate Degree</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles/styles.css">
   <style> 
-body {
-  text-align: center;
-  margin: 0 auto;
-  justify-content: center;
-  background-color: #D9D9D9;
-  line-height: 1.4;
-}
 
-hr{
-  justify-content: center;
-}
-
-a.button{
-  display: inline-block;   
-  padding: 10px 20px;       
-  background-color: #CF9581; 
-  color: white;            
-  text-decoration: none;   
-  border-radius: 5px;     
-  border: 2px solid black;
-  gap: 20px;
-
-}
-
-.navi{
-  display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 20px;
-    margin-top:-10px;
-    margin-bottom:-10px;
-}
-
-P {
-  justify-content: center;
-  align-items: center;
-  padding-left: 30px;
-  padding-right:30px;
-  line-height: 1.4;
-
-}
-.logo {
-  max-width: 100%;
-  padding-top: 30px;
-}
-
-.banner{
-  display:grid;
-  padding:20px;
-  background-image: url("fotos/banner.jpg");
-  height: 200px;
-  background-blend-mode: darken;
-   background-color: rgba(0,0,0,0.4);
-   border: 3px solid black;
-  
-/*  
-  img {
-justify-content: center;
-margin: 0 auto;
-text-align: center;
- width: 100%; */
-
-  
-}
-
-.artikel {
-    max-width: 15rem;
-    line-height: 1.4;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #artikelen {
-    h2{
-        grid-column: 1/ -1;
-      }
-      .artikel:nth-of-type(3){
-        grid-column: span 2;
-      }
-
-    @media(min-width: 925px){
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-
-      
-    }
-
-    @media(min-width: 1100px){
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-
-      .artikel:nth-of-type(3){
-        grid-column: span 1;
-      }
-    } 
-
-  }
-  
-
-.footer {
-  background-color: #317072;
-  color: white;
-  padding: 20px;
-}
-
-.banbut {
-    margin-top: -168px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 99px;
-    color: white;
-    font-family: inter;
-}
 
 
   </style>
@@ -127,7 +14,7 @@ text-align: center;
 
   <!-- Header -->
   <header>
-    <img src="fotos/logo.png" class="logo" alt="Logo Associate Degree">
+    <img src="./fotos/logo.png" class="logo" alt="Logo Associate Degree">
     <hr>
   </header>
 
@@ -204,16 +91,17 @@ text-align: center;
 
   <!-- Footer -->
   <footer class="footer">
-    <p>Overlegplatform Associate degree, dagelijks bestuur</p>
-    <p>Roland van Der Poel (voorzitter)</p>
-    <p>Carolien van Riswijk</p>
-    <p>Nina Spithost</p>
-    <p>Maruscha Kinds</p>
-    <p>Demi Blok</p>
-
+    <p class="dagelijksbestuur"><strong>Overlegplatform Associate degree, dagelijks bestuur</strong></p>
+    <ul CLASS="footerlist">
+    <li>Roland van Der Poel (voorzitter)</li>
+    <li>Carolien van Riswijk</li>
+    <li>Nina Spithost</li>
+    <li>Maruscha Kinds</li>
+   <li>Demi Blok</li>
+    </ul>
     <div class="contact">
       <p><strong>Contact</strong></p>
-      <p>Email: platformassociatedegrees@outlook.com</p>
+      <p class="emaill">Email: platformassociatedegrees@outlook.com</p>
     </div>
   </footer>
 
