@@ -41,6 +41,7 @@ P {
 .logo {
   max-width: 30%;
   padding-top: 0px;
+  min-width: 300px;
 }
 
 li{
