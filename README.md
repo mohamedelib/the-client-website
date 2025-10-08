@@ -21,15 +21,15 @@ Een overzicht van deelnemende hogescholen
 
 Een footer met contactinformatie en bestuursleden
 
-💻 Desktopweergave
+Desktopweergave
 
 ![desktopweergave](image.png)
 
 
 
-📱 Mobiele weergave
+Mobiele weergave
 
-![mobiele weergave](image-1.png)
+![mobiele weergave](image-2.png)
 
 
 De website is responsief, wat betekent dat de lay-out zich aanpast aan verschillende schermformaten, zoals laptops, tablets en smartphones.
@@ -75,10 +75,10 @@ Team: Squad 1I
 Opleiding: Front-end & Development – Hogeschool van Amsterdam
 Periode: 2025
 
-Mogelijke uitbreidingen
+Mogelijke uitbreidingen:
 
-Hamburger-menu voor mobiel navigeren
+Hamburger-menu voor mobiel navigeren,
 
-Zoekfunctie voor thema’s
+Zoekfunctie voor thema’s,
 
 Meertalige versie (NL / EN)
