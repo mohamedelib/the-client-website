@@ -37,6 +37,8 @@ P {
   justify-content: center;
   align-items: center;
   line-height: 1.4;
+  font-size: 16px;
+
 }
 .logo {
   max-width: 30%;
@@ -51,6 +53,7 @@ li{
     
 }
 
+
 .banner {
      padding:20px;
      background-image: url("../fotos/banner.jpg");
@@ -64,17 +67,17 @@ li{
     border: 3px solid black;
 }
   
-/*  
-  img {
-justify-content: center;
-margin: 0 auto;
-text-align: center;
- width: 100%; */
-
+main{
+    display: flex;
+    flex-direction: column;
+;
+}
   
 #intro{
     padding-left: 30px;
     padding-right:30px;
+     max-width: 40%;
+     align-self:center;
 }
 
 
